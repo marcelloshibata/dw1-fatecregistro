@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Zebrada</title>
+    <!-- CSS Interno -->
+    <style>
+        /* No CSS interno precisamos de seletores para aplicar nas formatações */
+        body {
+            background-color:  (#dadada);
+            font-family: "Verdana";
+        }
+
+        td, th {
+            /* Padding refere-se ao espaçamento */
+            padding: 6px;
+            line-height: 1.6;
+        }
+
+        /* Zebrando a tabela através das linhas pares e impares */
+        tr :nth-child(even) {
+            background-color: rgb(224, 79, 79);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(243, 123, 123);
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Tabela de clientes</caption>
+        <!-- CSS Interno -->
+        <thead style="background-color: rgb(206, 24, 24);">
+            <tr>
+                <th colspan="3">Dados pessoais:</th>
+                <th colspan="2">Endereço:</th>
+                <th>Contato:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Nome:</th>
+                <th>Idade:</th>
+                <th>Profissão:</th>
+                <th>Rua:</th>
+                <th>Cidade:</th>
+                <th>Email:</th>
+            </tr>
+            
+            <tr>
+                <td>Camila Namie</td>
+                <td>16</td>
+                <td>Pedreira</td>
+                <td>Rua das Flores</td>
+                <td>Registro</td>
+                <td>camila@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Marcello Shibata</td>
+                <td>17</td>
+                <td>Japones</td>
+                <td>Rua das Rosas</td>
+                <td>Registro</td>
+                <td>marcello@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Valdeci</td>
+                <td>18</td>
+                <td>Ignora áudios</td>
+                <td>Rua dos Ignoradores</td>
+                <td>Registro</td>
+                <td>valdeci@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Davi</td>
+                <td>67</td>
+                <td>Surfista de Cajati</td>
+                <td>Rua Resident Evil</td>
+                <td>Cajati</td>
+                <td>davi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Gregory</td>
+                <td>18</td>
+                <td>Call center expand</td>
+                <td>Rua dos Expandes</td>
+                <td>Registro</td>
+                <td>gregory@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ana de Souza</td>
+                <td>25</td>
+                <td>Engenharia</td>
+                <td>Avenida Carlos de Souza</td>
+                <td>São Paulo</td>
+                <td>anadesouza@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="6">Cadastrado em: 17/03/2026</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
