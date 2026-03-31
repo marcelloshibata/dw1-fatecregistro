@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro do Aluno</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Aluno - DSM</h1>
+      <p>
+        Esse formulário tem como objetivo ser um sistema para cadastrar os
+        alunos do curso de DSM da Fatec Registro.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo"
+            required/> <br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"
+            placeholder="Insira seu email" required /> <br>
+            <label for="data-nascimento">Data de Nascimento:</label><br>
+            <input type="date" name="data-nascimento" id="data-nascimento"/><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <label for="curso">Selecione seu curso:</label><br>
+            <select name="curso" id="curso">
+              <option value="dsm">DSM</option>
+              <option value="ads">ADS</option>
+              <option value="outro">Outro</option></select><br>
+            <label for="periodo">Período:</label>
+            <input type="radio" name="periodo" id="periodo" value="manha"/>Manhã
+            <input type="radio" name="periodo" id="periodo" value="noite"/>Noite <br>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="" id="" cols="40" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 - Fatec Registro</p>
+    </footer>
+  </body>
+</html>
