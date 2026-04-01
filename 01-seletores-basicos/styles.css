@@ -1,0 +1,69 @@
+/* Comentário no CSS */
+
+/* Seletor de elemento */
+
+body {
+    background-color: #30302e;
+    color: #ffffff;
+    font-family: Verdana;
+    /* Espaço em branco// Espaço interno
+    do elemento */
+    padding: 20px; 
+}
+
+/* p -> seletor */
+/* font-size -> propriedade */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    /* Margem inferior */
+    margin-bottom: 15px;
+    color: red;
+    padding: 10px;
+}
+
+section p {
+    color: orange;
+}
+
+/* Seletor de classe */
+.destaque {
+    background-color: #ffd700;
+    color: black;
+    padding: 10px;
+    /* borda 5px (espessura) solid (tipo da borda) e a cor */
+    border-left: 5px solid #ff6347;
+    border-radius: 3px;
+}
+
+/* Seletor de ID */
+#unico {
+    background-color: #8cc9e4;
+    color: #30302e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100px;
+    /* height é a altura */
+    /* width é a largura */
+}
+
+.post {
+    background-color: #3a3a38;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.post h2 {
+    color: #ffd700;
+}
+
+/* Agrupamento de seletores */
+h3, h4, h5 {
+    color: #4caf50;
+    /* Margem é um espaço externo, diferente
+    do padding que é interno */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
