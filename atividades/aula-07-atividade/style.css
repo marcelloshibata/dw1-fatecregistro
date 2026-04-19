@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #090909;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #f4f4f4;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #6958FF;
+    font-weight: 600;
+}
+
+.main-content-header {
+    display: flex;
+}
+
+.main-content-header-texts {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-right: 560px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.main-content-img {
+    margin-top: 100px;
+}
+
+.about-me {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.about-me-buttons {
+    display: flex;
+}
+
+section ul li {
+    list-style: none;
+}
+
+#about-me-title {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.about-me p {
+    color: white;
+    max-width: 565px;
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+}
+
+section ul li button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6958FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+section ul li button:hover {
+    transform: scale(1.1);
+}
+
+.skills-section {
+    margin-top: 300px;
+}
+
+.skills-section h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.skills-card {
+    display: flex;
+    margin-left: 50px;
+    gap: 300px;
+}
+
+.habilidade {
+    width: 200px;
+    height: 190px;
+    padding: 10px;
+    background-color: #6958FF;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+    margin-bottom: 300px;
+}
+
+.habilidade h4::after {
+    content: " : ";
+}
+
+.habilidade h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.habilidade p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.habilidade:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h3 {
+    color: white;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+input[type="email"] {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color: #373737;
+    border: 2px solid #7B7B7B;
+    border-radius: 20px;
+    color: #7B7B7B;
+    font-size: 15px;
+    transition: all ease 0.3s;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border: 2px solid #6958FF;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6958FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.git-redirect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.git-redirect h3 {
+    color: white;
+    font-size: 34px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+#github-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+footer {
+    bottom: 0;
+    padding: 5px;
+    background-color: #6958FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer p + span {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
